@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="DELETE">
+        <caller_access/>
+        <description>This event is fired for each NeedIt Task record due in the next 24 hours</description>
+        <event_name>x_58872_needit.dueSoonNeedItTasks</event_name>
+        <fired_by>Scheduled Script Execution - Find NeedIt Tasks Due Soon</fired_by>
+        <queue/>
+        <suffix>dueSoonNeedItTasks</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 15:15:58</sys_created_on>
+        <sys_id>9a86d2211b245110107eea03b24bcb7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit.dueSoonNeedItTasks</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysevent_register_9a86d2211b245110107eea03b24bcb7a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-07 15:15:58</sys_updated_on>
+        <table>x_58872_needit_needit_task</table>
+    </sysevent_register>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>17e4d5c1dbcb6c50f37acac50596194f</instance_id>
+        <instance_name>dev107513</instance_name>
+        <name>sysevent_register_9a86d2211b245110107eea03b24bcb7a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register"><sysevent_register action="INSERT_OR_UPDATE"><caller_access/><description>This event is fired for each NeedIt Task record due in the next 24 hours</description><event_name>x_58872_needit.dueSoonNeedItTasks</event_name><fired_by>Scheduled Script Execution - Find NeedIt Tasks Due Soon</fired_by><queue/><suffix>dueSoonNeedItTasks</suffix><sys_class_name>sysevent_register</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-07 15:15:58</sys_created_on><sys_id>9a86d2211b245110107eea03b24bcb7a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_58872_needit.dueSoonNeedItTasks</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sysevent_register_9a86d2211b245110107eea03b24bcb7a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-07 15:15:58</sys_updated_on><table>x_58872_needit_needit_task</table></sysevent_register></record_update>]]></payload>
+        <payload_hash>-1624113791</payload_hash>
+        <record_name>x_58872_needit.dueSoonNeedItTasks</record_name>
+        <reverted_from/>
+        <source>42d04c8d1b241110107eea03b24bcb71</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 15:15:58</sys_created_on>
+        <sys_id>8cf6d2211b245110107eea03b24bcb6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181d93b684c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-07 15:15:58</sys_updated_on>
+        <type>Event Registration</type>
+        <update_guid>c4f6d221c6245110e21312bad2a8f76f</update_guid>
+        <update_guid_history>c4f6d221c6245110e21312bad2a8f76f:-1624113791</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 15:51:31</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_register">sysevent_register</sys_db_object>
+        <sys_id>01c31f73a0a746a98003bf5278a998d9</sys_id>
+        <sys_metadata>9a86d2211b245110107eea03b24bcb7a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit.dueSoonNeedItTasks</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="NeedIt Task">7e1d79d51be01110107eea03b24bcbab</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sysevent_register_9a86d2211b245110107eea03b24bcb7a</sys_update_name>
+        <sys_update_version display_value="sysevent_register_9a86d2211b245110107eea03b24bcb7a">8cf6d2211b245110107eea03b24bcb6f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-07 15:51:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
